@@ -1,0 +1,66 @@
+Junto ao seu grupo de trabalho, faça:
+Entregue um arquivo com os comandos utilizados para executar cada ação. As questões que não são respondida por comandos, descreva os passos que você realizou.
+
+
+Parte 1, NO GITHUB: Escolha um dos componentes do grupo como "lider" para fazer os seguintes passos:
+1. No GitHub, crie um repositório chamado "CS-GitHubPratica".
+2. Adicione o arquivo README.MD com o nome de cada componente do grupo, então faça o commit deste arquivo.
+3. Adicione a conta de cada um dos colegas como colaborador deste repositório (Settings -> Collaborators -> Adicione a conta de cada colega)
+
+Parte 2: todos 
+4. Acesse o seu e-mail (vinculado a conta do github) e aceite o convite (exceto o "lider", por motivos obvios).
+5. Cada componente do grupo deve gerar uma chave ssh e configurar na sua própria conta
+	 - Gerar a chave ssh: https://docs.github.com/pt/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
+	 	  ssh-keygen -t ed25519 -C "seu_email_conta_git_hub@provedor.com"
+	 	  eval "$(ssh-agent -s)"
+	 	  ssh-add ~/.ssh/id_ed25519
+	 - Adicionar a chave ssh a sua conta: https://docs.github.com/pt/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account
+	 		cat ~/.ssh/id_ed25519.pub
+	 		Copie o conteúdo do arquivo (essa é sua chave pública)
+	 		No canto superior direito, clique na foto do seu perfil e em "Settings"
+	 		No lado esquerdo, escolha a opção "Chaves SSH e GPG"
+	 		Clique em Nova chave SSH ou Adicionar chave SSH
+	 		Informe um título e cole a sua chave pública
+	 		Escolha "Add SSH Key"
+
+6. Faça o clone do seu projeto com a opção SSH:
+	 git clone git@github.com:CONTA-DO-LIDER/CS-GitHubPratica.git
+7. Crie um arquivo com o seu nome - no conteúdo pode colocar qualquer informação. 
+8. Adicione este arquivo ao repositório local.
+	 git add
+	 git commit
+9. Atualize o seu repositório
+   git pull
+10. Envie as alterações do seu repositório local para o repositório remoto
+   git push origin main
+   ou
+   git push origin master
+11. Aguarde os colegas concluiemr até o passo 10 e atualize novamente seu repositório.
+12. Altere um arquivo qualquer e faça o commit (add e commit) no repositório local.
+14. Repita os passos 9, 10, 11 e 12 algumas vezes. Inclusive, faça um teste onde você e seu(s) colega(s) façam alteração no mesmo arquivo.
+	Conflitos vão surgir e precisam ser corrigidos e, depois, o repositório remoto atualizado
+	O próprio GIT notifica e informa como tratar os conflitos. Fique atendo com as mensagens exibidas por ele.
+
+
+
+
+
+
+
+
+
+RESPOSTAS:
+
+Parte 1:
+A parte 1 foi realizada por outro integrante do grupo.
+
+Parte 2:
+Na parte 2, o passo 5 foi feito anteriormente em outro momento, pois eu ja utilizo github no serviço e em projetos pessoais.
+
+4- entrei no meu e-mail e aceitei o convite
+6- git clone https://github.com/lucamartins/CS-GitHubPratica.git atividade_construcao_software
+7- criei o arquivo via interface gráfica e inseri esses caracteres nele presente
+8- git add .
+   git commit -m "commit inicial"
+9- git pull
+10- git push origin main
