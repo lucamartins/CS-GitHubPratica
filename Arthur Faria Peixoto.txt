@@ -1,16 +1,21 @@
 Junto ao seu grupo de trabalho, faça:
 Entregue um arquivo com os comandos utilizados para executar cada ação. As questões que não são respondida por comandos, descreva os passos que você realizou.
+Modificacao feita pelo Luca
 
 
 Parte 1, NO GITHUB: Escolha um dos componentes do grupo como "lider" para fazer os seguintes passos:
 1. No GitHub, crie um repositório chamado "CS-GitHubPratica".
+Modificacao feita pelo Luca
 2. Adicione o arquivo README.MD com o nome de cada componente do grupo, então faça o commit deste arquivo.
 3. Adicione a conta de cada um dos colegas como colaborador deste repositório (Settings -> Collaborators -> Adicione a conta de cada colega)
 
+
 Parte 2: todos 
 4. Acesse o seu e-mail (vinculado a conta do github) e aceite o convite (exceto o "lider", por motivos obvios).
+
+Modificacao
 5. Cada componente do grupo deve gerar uma chave ssh e configurar na sua própria conta
-	 - Gerar a chave ssh: https://docs.github.com/pt/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
+	 - Gerar MODIFICACAO a chave ssh: https://docs.github.com/pt/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
 	 	  ssh-keygen -t ed25519 -C "seu_email_conta_git_hub@provedor.com"
 	 	  eval "$(ssh-agent -s)"
 	 	  ssh-add ~/.ssh/id_ed25519
