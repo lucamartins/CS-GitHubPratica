@@ -1,3 +1,4 @@
+jons turtle
 Qualquer coisa 1
 Qualquer coisa 2
 Qualquer coisa 3
@@ -5,4 +6,5 @@ Oi
 Oi
 Qualquer coisa adicionada por Arthur Faria
 peixe - amadeu lee
-avi√£o - leonardo moreira
+avi∆o - leonardo moreira
+jons turtle
